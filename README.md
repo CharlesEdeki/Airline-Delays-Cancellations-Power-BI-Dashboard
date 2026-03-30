@@ -11,25 +11,27 @@
 
 ## Overview
 
-An interactive Power BI dashboard analysing US airline on-time performance data. Identifies the root causes of delays, cancellation patterns, and carrier-level performance to support operational and strategic decision-making in the aviation industry.
+An interactive Power BI dashboard analysing US airline performance across 1.9 million flights. Tracks flight status distribution, carrier delay rates, cancellation causes, and day-of-week patterns to give aviation analysts a clear picture of where, when, and why disruptions occur.
 
-> **Key Question:** *Where are delays coming from — and which carriers and routes are most affected?*
+> **Key Question:** *Which carriers are most delayed, what is causing cancellations, and how does disruption vary across airports and days of the week?*
 
 ---
 
 ## Dashboard Features
 
-- **Executive KPI Summary** — On-time %, cancellation rate, and average delay minutes at a glance
-- **Delay Cause Breakdown** — Carrier, weather, NAS, security, and late aircraft delay categorisation
-- **Monthly Trend Analysis** — Year-over-year performance comparison with trend lines
-- **Carrier Comparison** — Side-by-side performance ranking across all major airlines
-- **Route Drill-Through** — Click any carrier to explore origin-destination delay patterns
+- **3 KPI Cards with Sparklines** — Total flights (1.9M), delayed flights (791.6K), and cancelled flights (28.6K) each with an embedded trend sparkline for at-a-glance pattern reading
+- **Flight Status Summary Bar** — Bottom-of-page bar showing the split between on-time (58%), delayed (40.6%), and cancelled (1.5%) across the full dataset
+- **Top 10 Busiest Airports** — Horizontal bar chart ranking airports by flight volume; Atlanta and Chicago lead at 346K and 285K respectively
+- **Carrier Delay Rate Ranking** — Bar chart showing delay rate % per airline; United Airlines highest at 53.5%, Hawaiian Airlines lowest at 24.2%
+- **Cancellation Cause Donut Chart** — Breakdown of cancellations by Weather, Airline/Carrier, and National Air System (NAS)
+- **Day-of-Week Cancellation Bar Chart** — Reveals Monday as the peak cancellation day at 2.3%, Friday lowest at 1.0%
+- **Interactive Slicers** — Filter the entire dashboard by flight status (on-time, delayed, cancelled) to isolate and compare each segment
 
 ---
 
 ## Key Insight
 
-> Late aircraft arrival is the dominant avoidable delay cause — outpacing weather delays by over 2x across most carriers. This points operations teams toward turnaround time optimisation rather than external factor mitigation.
+> Weather is the dominant cause of flight cancellations, accounting for the largest share ahead of Airline/Carrier and National Air System (NAS) factors. While delays are largely an operational problem, cancellations are primarily driven by conditions outside carrier control — a distinction that matters for how airlines communicate disruptions and plan contingencies.
 
 ---
 
@@ -37,8 +39,6 @@ An interactive Power BI dashboard analysing US airline on-time performance data.
 
 ### Overview — All Flights
 <img width="929" height="517" alt="image" src="https://github.com/user-attachments/assets/e4a4468d-1787-42f2-80ed-fcb557a711c2" />
-
-
 > 1.9M total flights · 791.6K delayed (40.6%) · 28.6K cancelled (1.5%) · Atlanta and Chicago are the busiest hubs
 
 ### On-Time Flights Filter View
@@ -80,5 +80,5 @@ An interactive Power BI dashboard analysing US airline on-time performance data.
 
 ## About
 
-Built by **Charles Edeki** — Data Analyst & Educator | Abuja, Nigeria  
+Built by **Charles Edeki**
 📧 charlesedeki093@gmail.com | [LinkedIn](https://www.linkedin.com/in/charles-edeki/) | [GitHub](https://github.com/CharlesEdeki)
