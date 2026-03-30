@@ -36,19 +36,21 @@ An interactive Power BI dashboard analysing US airline on-time performance data.
 ## Dashboard Preview
 
 ### Overview — All Flights
-![Airline Dashboard Overview](https://raw.githubusercontent.com/charlesedeki/airline-delays-powerbi/main/screenshots/overview_page.png)
+<img width="929" height="517" alt="image" src="https://github.com/user-attachments/assets/e4a4468d-1787-42f2-80ed-fcb557a711c2" />
+
+
 > 1.9M total flights · 791.6K delayed (40.6%) · 28.6K cancelled (1.5%) · Atlanta and Chicago are the busiest hubs
 
 ### On-Time Flights Filter View
-![On-Time Filter](https://raw.githubusercontent.com/charlesedeki/airline-delays-powerbi/main/screenshots/ontime_filter.png)
+<img width="925" height="519" alt="image" src="https://github.com/user-attachments/assets/9911a322-e928-4308-8b54-fee74a92c5c6" />
 > Filtered to on-time flights — United Airlines leads delay rate at 53.5%, Hawaiian Airlines lowest at 24.2%
 
 ### Delayed Flights — Root Cause Drill-Down
-![Delayed Drill-Down](https://raw.githubusercontent.com/charlesedeki/airline-delays-powerbi/main/screenshots/delayed_drilldown.png)
+<img width="929" height="516" alt="image" src="https://github.com/user-attachments/assets/ef66c191-db3f-41e5-a5d5-106a64266d02" />
 > All carriers show 100% delayed view — used for cross-carrier delay cause comparison
 
 ### Cancellations Deep-Dive
-![Cancellations View](https://raw.githubusercontent.com/charlesedeki/airline-delays-powerbi/main/screenshots/cancellations_view.png)
+<img width="927" height="520" alt="image" src="https://github.com/user-attachments/assets/f109a0c0-f827-4966-b352-50c087a2bcf8" />
 > 16.4K cancellations filtered — Weather and Airline/Carrier causes visible in donut, Monday peak clearly dominant
 
 > 📁 **[Download full .pbix file and dataset → Google Drive](https://drive.google.com/drive/folders/1UfHnQZ_E-g8u_TeuUnw-RmZM2Lo2jhIE?usp=sharing)**
